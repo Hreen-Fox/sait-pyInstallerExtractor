@@ -1,4 +1,4 @@
-importScripts("/js/pyinstxtractor-go.js");
+importScripts("./js/pyinstxtractor-go.js");
 
 const logFn = (line) => {
     postMessage({
