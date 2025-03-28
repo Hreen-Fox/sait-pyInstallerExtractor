@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <link rel="icon" href="./img/icon.svg">
+    <link rel="stylesheet" href="./css/dark.css">
+    <link href="./css/styles.css" rel="stylesheet">
+    <title>PyInstaller Extractor WEB</title>
+    <link rel="stylesheet" href="./css/style.css">
+<body>
+    <script src="./js/load.js"></script>
+    <div class="container">
+        <h1>PyInstaller Extractor WEB🌐</h1>
+        <i>Pyinstxtractor running in the browser, powered by GopherJS!</i>
+        <div class="output-box-div">
+            <textarea class="output-box" id="logBox" readonly="" wrap="off" rows="15" placeholder="Please select a file to extract"></textarea>
+        </div>
+        <form id="file-upload-form">
+            <input id="file-upload-input" type="file" required="">
+            <button id="process-btn" style="display:inline" type="submit" class="pure-button pure-button-primary">⚙️Process</button>
+        </form>
+        <blockquote>
+            <ul>
+                <li>Runs totally client side, <strong>nothing uploaded</strong></li>
+                <li>Extracting large files may take some time, please be patient 😕</li>
+                <li>Alternatively try 
+                    <a href="https://github.com/pyinstxtractor/pyinstxtractor-ng">pyinstxtractor-ng</a> 
+                    or 
+                    <a href="https://github.com/extremecoders-re/pyinstxtractor">pyinstxtractor</a> 
+                    as a desktop version of this tool
+                </li>
+            </ul>
+        </blockquote>
+    </div>
+    <script src="./js/pyinstxtractor-go.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
