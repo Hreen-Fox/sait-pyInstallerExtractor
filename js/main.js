@@ -37,7 +37,7 @@ const downloadBlob = (data, fileName, mimeType) => {
     setTimeout(() => window.URL.revokeObjectURL(url), 1000);
 };
 
-const worker = new Worker("./worker.js");
+const worker = new Worker("./js/worker.js");
 
 // Нажатие кнопки начатия процесса
 document
