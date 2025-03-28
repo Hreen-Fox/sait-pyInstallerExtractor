@@ -1,4 +1,4 @@
-importScripts("https://hreen-fox.github.io/sait-pyInstallerExtractor/js/pyinstxtractor-go.js");
+importScripts("./js/pyinstxtractor-go.js");
 
 const logFn = (line) => {
     postMessage({
